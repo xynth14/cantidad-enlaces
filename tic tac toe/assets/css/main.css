@@ -1,0 +1,21 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+h1{
+	text-align: center;
+}
+div.content{
+	width: 300px;
+	margin: 0 auto;
+}
+div.tablero{
+	width: 280px;
+	margin: 10px;
+	border: 1px solid #ddd;
+}
+button.btn{
+	width: 80px;
+	height: 80px;
+	/*margin: 16px;*/
+	font-size: 22px;
+}

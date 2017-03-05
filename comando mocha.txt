@@ -1,0 +1,8 @@
+# todo en el git bash
+
+node -v
+npm -v
+npm install mocha -g
+
+mocha [nombreFileTest].js
+

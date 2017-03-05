@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<form id="frm1">
+		Nombre: <input type="text" name="name" id="name"><br>
+		Mail: <input type="text" name="email" id="email"><br>
+	</form> 
+	<button onclick="myFunction();">Mostrar</button>
+
+	<p id="mostrarNombre"></p>
+	<p id="mostrarMail"></p>
+
+	<script>
+		function myFunction() {
+			var name = document.getElementById("name");
+			var email = document.getElementById("email");
+			var mostrarNombre = document.getElementById("mostrarNombre");
+			var mostrarMail = document.getElementById("mostrarMail");
+
+			if(name.value != "" && email.value != ""){
+				mostrarNombre.innerHTML = "Tu nombre es: " + name.value;
+				mostrarMail.innerHTML = "Tu Email es: " + email.value;
+			}else{
+				alert("Todos los datos son necesarios..");
+			}
+			
+		}
+	</script>
+</body>
+</html>

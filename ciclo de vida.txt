@@ -1,0 +1,8 @@
+identificar el problema
+investigacion
+requerimiento
+planificacion
+arquitectura
+Diseño
+Operar, optimizar y evaluar
+	Carga - usabilidad - diseño - resolucion - escalabilidad

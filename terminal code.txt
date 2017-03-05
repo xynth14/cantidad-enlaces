@@ -1,0 +1,17 @@
+//una sola vez por PC
+git config --global user.name "Cynthia Quispe"
+git config --global user.email "cyn19870@gmail.com"
+
+//una vez por repo
+git init
+
+//Cuantas veces quiera
+git status
+
+git add .
+git commit -m "Primer commit al repo"
+
+//solo una vez por repo
+git remote add origin https://github.com/xynth14/Hello.git
+
+git push origin master
